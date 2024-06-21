@@ -21,6 +21,7 @@ html, body{
     border-radius: 10px;
     border: 2px solid white;
     padding: 30px 50px;
+    box-shadow: 0px 0px 10px white;
 }
 
 .hours-container{
