@@ -6,7 +6,7 @@ let minutes;
 
 function setHours() {
     document.querySelector(`.hours`).innerText = hours;
-    if (hours >= 0 && hours <= 12) {
+    if (hours >= 0 && hours < 12) {
         document.querySelector(`#timezone`).innerText = `AM`;
     }
     else {
